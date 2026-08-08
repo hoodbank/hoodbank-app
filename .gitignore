@@ -1,10 +1,9 @@
-node_modules/
+﻿node_modules/
 .next/
 .vercel/
 .data/
-.env
-.env.local
 *.tsbuildinfo
 
-.vercel
+# secrets — but the template must ship, it is how you know what to set
 .env*
+!.env.example
